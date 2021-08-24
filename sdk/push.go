@@ -73,13 +73,10 @@ type Response struct {
 const (
 	// SuccessStatus is the status returned from Expo on a success
 	SuccessStatus = "ok"
-
 	// ErrorDeviceNotRegistered indicates the token is invalid
 	ErrorDeviceNotRegistered = "DeviceNotRegistered"
-
 	// ErrorMessageTooBig indicates the message went over payload size of 4096 bytes
 	ErrorMessageTooBig = "MessageTooBig"
-
 	// ErrorMessageRateExceeded indicates messages have been sent too frequently
 	ErrorMessageRateExceeded = "MessageRateExceeded"
 )
